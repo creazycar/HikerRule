@@ -139,7 +139,7 @@ function hikhmrule() {
                 var res = {};
                 var d = [];
                 var json = json;
-                d。push({
+                d.push({
                     //title : json.note,
                     title: json.content,
                     desc: json.content,
