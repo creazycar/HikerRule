@@ -16,10 +16,10 @@ function hikhmrule() {
         //url: "input://" + '' + ".js:putVar('ipttext',input);refreshPage()",
         //url: "'toast://你输入的是' + input",
         url: $.toString(() => {
-            var link = 'hiker://empty#noRecordHistory#$$$hiker://files/rules/xyq/hikermovie.json$$$' + input + '$$$fypage$$$';
+            var link = 'hiker://empty#noRecordHistory#$$$hiker://files/rules/xyq/hikermovie1.json$$$' + input + '$$$fypage$$$';
             //log(link);
             return $(link).rule(() => {
-                eval(fetch('hiker://files/rules/xyq/hikermovie.js'));
+                eval(fetch('hiker://files/rules/xyq/hikermovie1.js'));
                 hiksearch();
             });
         }),
@@ -139,7 +139,7 @@ function hikhmrule() {
                 var res = {};
                 var d = [];
                 var json = json;
-                d.push({
+                d。push({
                     //title : json.note,
                     title: json.content,
                     desc: json.content,
