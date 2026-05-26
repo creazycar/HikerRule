@@ -16,10 +16,10 @@ function hikhmrule() {
         //url: "input://" + '' + ".js:putVar('ipttext',input);refreshPage()",
         //url: "'toast://你输入的是' + input",
         url: $.toString(() => {
-            var link = 'hiker://empty#noRecordHistory#$$$hiker://files/rules/xyq/hikermovie1.json$$$' + input + '$$$fypage$$$';
+            var link = 'hiker://empty#noRecordHistory#$$$hiker://files/rules/xyqq/hikermovie1.json$$$' + input + '$$$fypage$$$';
             //log(link);
             return $(link).rule(() => {
-                eval(fetch('hiker://files/rules/xyq/hikermovie1.js'));
+                eval(fetch('hiker://files/rules/xyqq/hikermovie1.js'));
                 hiksearch();
             });
         }),
