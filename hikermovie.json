@@ -14,6 +14,13 @@
                     "url": "https://vip.wwgz.cn:5200"
                 },
                 {
+                    "title": "河马影视",
+                    "vodtype": "电影&连续剧&综艺&动漫&短剧",
+                    "vodhref": "1&2&3&4&26",
+                    "ico": "https://txc.gtimg.com/data/2198/2022/0414/c97425b6570f2a9dc9d09b9c25cf2c4a.png",
+                    "url": "http://www.hemayes.com"
+                },
+                {
                     "title": "TVB云播",
                     "vodtype": "电影&电视剧&综艺&动漫&动作片&喜剧片&爱情片&科幻片&恐怖片&剧情片&战争片&国产剧&港台剧&日韩剧&欧美剧&短剧",
                     "vodhref": "1&2&3&4&6&7&8&9&10&11&12&13&14&15&16&19",
